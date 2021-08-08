@@ -29,7 +29,6 @@ namespace animated_rain_loading
 				percentage = value < 0 ? 0 : value;
 				percentage = value > 100 ? 100 : value;
 
-				//View.Top = View.Parent.Height - (percentage / (View.Height/2) * 100);
 				View.Top = View.Parent.Height - (percentage * (View.Height / 2) / 100);
 			}
 		}
